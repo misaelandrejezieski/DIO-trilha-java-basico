@@ -17,7 +17,7 @@ public class ContaTerminal {
     int numConta = scan.nextInt();
 
     System.out.println("Por favor, digite seu nome:");
-    scan.nextLine();
+    
     String nome = scan.nextLine();
 
     System.out.println("Digite seu saldo:");
