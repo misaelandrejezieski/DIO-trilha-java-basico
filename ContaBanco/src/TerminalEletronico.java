@@ -1,4 +1,4 @@
-public static void main(String[] args) {
+public void TerminalEletronico() {
     
             System.out.println("Por favor, digite o valor solicitado:");
             double valorSolicitado = scan.nextInt();
@@ -6,4 +6,5 @@ public static void main(String[] args) {
             if(valorSolicitado > saldo ){
                     saldo = saldo - valorSolicitado;
                     System.out.println("\nSeu saldo é de: " + saldo);
+            }
 }
