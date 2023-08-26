@@ -6,12 +6,12 @@ public class ExemploExceção {
         Number valor = 0;
     try {
         
-        valor = NumberFormat.getInstance().parse("a1.75");
+        valor = NumberFormat.getInstance().parse("aaa");
         
         System.out.println(valor);
 
     } catch (ParseException e) {
-        e.printStackTrace();
+        System.out.println("Idiota!!!");
     }
     }
 }
