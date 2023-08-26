@@ -34,7 +34,7 @@ public class AboutMe {
         scanner.close(); 
         
     } catch (InputMismatchException e) {
-        System.out.println("## Os campos de idade e altura devem ser númericos.");
+        System.err.println("## Os campos de idade e altura devem ser numéricos.");
     }
     }
     
