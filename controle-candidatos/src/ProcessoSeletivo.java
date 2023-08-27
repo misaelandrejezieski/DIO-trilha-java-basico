@@ -9,17 +9,32 @@ public class ProcessoSeletivo {
         analisarCandidato(2000.0);
         System.out.println("---- ---- ---- ---- ---- ---- ---- ---- ---- ----");*/
         selecaoCandiditos();
+        imprimirSelecionados();
     }
-		
+	
+    static void imprimirSelecionados(){
+        String [] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};
+        
+        System.out.println("Imprimindo a lista de candidatos informando o indice do elemento");
+
+        for(int indice=0; indice < candidatos.length; indice++){
+            System.out.println("O candidato de nº " + (indice+1) + " é " + candidatos[indice]);
+
+        }
+    
+    }   
+
+
 	static void selecaoCandiditos() {
 		double salarioBase = 2000.0;
 		String [] candidatos = {"FELIPE","MÁRCIA","JULIA","PAULO","AUGUSTO","MÔNICA","FABRÍCIO","MIRELA","DANIELA","JORGE"};
 		int totalSelecionados = 0;
 		int proximoCandidato = 0; 
-		while(totalSelecionados <5 && proximoCandidato < candidatos.length) {
+		while(totalSelecionados < 5 && proximoCandidato < candidatos.length) {
 			String candidato = candidatos[proximoCandidato++];
 			double salarioPretendido = salarioPretendido();
-			System.out.println("O candidato " + candidato + " solicitau este valor de salário  " + salarioPretendido);
+			System.out.println("\nO candidato " + candidato + " solicitau este valor de salário  " + salarioPretendido);
+            System.out.println("---- ---- ---- ---- ---- ---- ---- ---- ---- ----");
 			if(salarioBase <= salarioPretendido) {
 				System.out.println("QUE PENA!! O candidato " + candidato + " NÃO foi selecionado ");
 				
