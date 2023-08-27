@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) throws Exception {
-        System.out.println("----- ----- ----- ----- -----");
+        System.out.println("----- ----- ----- ----- ----- ----- ----- -----");
         System.out.println("¨¨¨¨ Contador Desafio trilha java básico ¨¨¨¨");
+        System.out.println("----- ----- ----- ----- ----- ----- ----- -----");
     
     try (Scanner terminal = new Scanner(System.in)) {
         System.out.println("Digite o primeiro parâmetro");
