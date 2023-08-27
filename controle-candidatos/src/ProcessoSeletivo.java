@@ -8,7 +8,7 @@ public class ProcessoSeletivo {
         analisarCandidato(2200.0);
         analisarCandidato(2000.0);
         System.out.println("---- ---- ---- ---- ---- ---- ---- ---- ---- ----");*/
-        selecaoCandiditos();
+        //selecaoCandiditos();
         imprimirSelecionados();
     }
 	
