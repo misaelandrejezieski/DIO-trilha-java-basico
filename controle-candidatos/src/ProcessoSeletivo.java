@@ -14,6 +14,7 @@ public class ProcessoSeletivo {
         String [] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};
         for(String candidato: candidatos){
             ligandoCandidatos(candidato);
+            System.out.println("-----------------------------------");
         }        
     
     }
@@ -83,18 +84,13 @@ public class ProcessoSeletivo {
 				tentativasRealizadas++;
 			else
 				System.out.println("CONTATO REALIZADO COM SUCESSO");
-                
-			
 		}while(continuarTentando && tentativasRealizadas<5);
 		
 		if(atendeu){
 			System.out.println("CONSEGUIMOS CONTATO COM " + candidato +" NA " + tentativasRealizadas + " TENTATIVA");
-            System.out.println("-----------------------------------");
         }
 		else
 			System.out.println("NÃO CONSEGUIMOS CONTATO COM " + candidato +", NÚMERO MAXIMO TENTATIVAS " + tentativasRealizadas + " REALIZADA");
-            System.out.println("-----------------------------------");
-		
 	}
 	
 	//método auxiliar
