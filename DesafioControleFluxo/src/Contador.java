@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) throws Exception {
         System.out.println("----- ----- ----- ----- -----");
-        System.out.println("x-x-x Contador Desafio trilha java básico x-x-x");
+        System.out.println("¨¨¨¨ Contador Desafio trilha java básico ¨¨¨¨");
     
     try (Scanner terminal = new Scanner(System.in)) {
         System.out.println("Digite o primeiro parâmetro");
