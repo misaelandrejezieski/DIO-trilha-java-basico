@@ -32,6 +32,7 @@ public class ProcessoSeletivo {
 		System.out.println("Total de selecionados: " + totalSelecionados);
 		System.out.println("Total de consultados: " + proximoCandidato);
 	}
+
 	static double salarioPretendido() {
 	     return ThreadLocalRandom.current().nextDouble(1800, 2200);
 	}
@@ -45,10 +46,5 @@ public class ProcessoSeletivo {
         } else {
             System.out.println("AGUARDAR DEMAIS CANDIDATOS.");
         }
-
-
     }
-
-
-
 }
