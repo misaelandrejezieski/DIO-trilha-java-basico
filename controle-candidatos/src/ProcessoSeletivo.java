@@ -11,7 +11,7 @@ public class ProcessoSeletivo {
     }
 
     static void selecaoCandidatos(){
-        String [] candidatos = {"FELIPE","MÁRCIA","JULIA","PAULO","AUGUSTO"}
+        String [] candidatos = {"FELIPE","MÁRCIA","JULIA","PAULO","AUGUSTO","FABRICIO","MIRELA","DANIELA"};
     }
 
     static void analisarCandidato(double salarioPretendido) {
