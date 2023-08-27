@@ -12,6 +12,14 @@ public class ProcessoSeletivo {
 
     static void selecaoCandidatos(){
         String [] candidatos = {"FELIPE","MÁRCIA","JULIA","PAULO","AUGUSTO","FABRICIO","MIRELA","DANIELA"};
+
+        int candidatosSelecionados = 0;
+        int candidatosAtual = 0;
+        while(candidatosSelecionados < 5){
+            String candidato = candidatos[candidatosAtual];
+
+        }
+
     }
 
     static void analisarCandidato(double salarioPretendido) {
