@@ -83,13 +83,14 @@ public class ProcessoSeletivo {
 				tentativasRealizadas++;
 			else
 				System.out.println("CONTATO REALIZADO COM SUCESSO");
-                System.out.println("-----------------------------------");
+                
 			
 		}while(continuarTentando && tentativasRealizadas<5);
 		
-		if(atendeu)
+		if(atendeu){
 			System.out.println("CONSEGUIMOS CONTATO COM " + candidato +" NA " + tentativasRealizadas + " TENTATIVA");
             System.out.println("-----------------------------------");
+        }
 		else
 			System.out.println("NÃO CONSEGUIMOS CONTATO COM " + candidato +", NÚMERO MAXIMO TENTATIVAS " + tentativasRealizadas + " REALIZADA");
             System.out.println("-----------------------------------");
