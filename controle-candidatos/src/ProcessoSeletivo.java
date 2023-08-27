@@ -8,7 +8,7 @@ public class ProcessoSeletivo {
         analisarCandidato(2200.0);
         analisarCandidato(2000.0);
         System.out.println("---- ---- ---- ---- ---- ---- ---- ---- ---- ----");*/
-
+        selecaoCandiditos();
     }
 		
 	static void selecaoCandiditos() {
@@ -20,7 +20,7 @@ public class ProcessoSeletivo {
 			String candidato = candidatos[proximoCandidato++];
 			double salarioPretendido = salarioPretendido();
 			System.out.println("O candidato " + candidato + " solicitau este valor de salário  " + salarioPretendido);
-			if(salarioBase >= salarioPretendido) {
+			if(salarioBase <= salarioPretendido) {
 				System.out.println("QUE PENA!! O candidato " + candidato + " NÃO foi selecionado ");
 				
 			}else {
