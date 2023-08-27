@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) throws Exception {
         System.out.println("----- ----- ----- ----- -----");
+        System.out.println("x-x-x Contador Desafio trilha java básico x-x-x");
     
     try (Scanner terminal = new Scanner(System.in)) {
         System.out.println("Digite o primeiro parâmetro");
@@ -26,7 +27,7 @@ public class Contador {
 
         int contagem = parametroDois - parametroUm;
         for (int i = 1; i <= contagem; i++) {
-            System.out.println("Imprimindo o número " + i);
+            System.out.println("Imprimindo o número: " + i);
         }
     }
 }
