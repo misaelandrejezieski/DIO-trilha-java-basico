@@ -1,7 +1,8 @@
 public class School {
     public class Student {
-        String name;
-        int age;
+        String name = ("");
+    
+        int age= 0;
         //Color color;
         //Sex sex;
     
