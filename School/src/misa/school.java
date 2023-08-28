@@ -1,7 +1,8 @@
 package misa;
 
 import java.util.Scanner;
-public class school {
+
+public class School {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Pega o número de linhas e colunas da matriz
