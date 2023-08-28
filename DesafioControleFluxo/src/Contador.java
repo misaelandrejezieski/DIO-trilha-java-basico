@@ -5,7 +5,7 @@ public class Contador {
         System.out.println("----- ----- ----- ----- ----- ----- ----- -----");
         System.out.println("¨¨¨¨ Contador Desafio trilha java básico ¨¨¨¨");
         System.out.println("----- ----- ----- ----- ----- ----- ----- -----");
-        erro
+        
     
     try (Scanner terminal = new Scanner(System.in)) {
         System.out.println("Digite o primeiro parâmetro");
