@@ -1,6 +1,8 @@
 package misa;
 
 import java.util.Scanner;
+
+
     public class school {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -21,13 +23,6 @@ import java.util.Scanner;
                     System.out.print(matriz[i][j] + " ");
                 }
                 System.out.println();
-            }
         }
     }
-
-
-
-
-
-
 }
