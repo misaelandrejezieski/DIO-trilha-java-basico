@@ -1,4 +1,20 @@
 public class School {
+    public class Student {
+        String name;
+        int age;
+        //Color color;
+        //Sex sex;
+    
+        void eating(Lunch lunch){
+          //NOSSO CÓDIGO AQUI
+        }
+        void drinking(Juice juice){
+          //NOSSO CÓDIGO AQUI
+        }
+        void running(){
+          //NOSSO CÓDIGO AQUI
+        }
+    }
     public static void main(String[] args) throws Exception {
       Student student1 = new Student();
       student1.name= "John";
@@ -17,22 +33,5 @@ public class School {
       student3.age= 11;
       student3.color= Color.DARK;
       student3.sex= Sex.FEMALE;
-    }
-
-    public class Student {
-        String name;
-        int age;
-        Color color;
-        Sex sex;
-    
-        void eating(Lunch lunch){
-          //NOSSO CÓDIGO AQUI
-        }
-        void drinking(Juice juice){
-          //NOSSO CÓDIGO AQUI
-        }
-        void running(){
-          //NOSSO CÓDIGO AQUI
-        }
     }
 }
