@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class School {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner resp = new Scanner(System.in);
         // Pega o número de linhas e colunas da matriz
-        int linhas = scanner.nextInt();
-        int colunas = scanner.nextInt();
+        int linhas = sc.nextInt();
+        int colunas = sc.nextInt();
         // Cria a matriz
         int[][] matriz = new int[linhas][colunas];
         // Preenche a matriz com os valores digitados pelo usuário
