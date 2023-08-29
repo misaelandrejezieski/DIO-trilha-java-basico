@@ -9,16 +9,17 @@ public class Main {
             System.out.println("Digite o número de colunas: " );
             int colunas = scanner.nextInt();
             // Cria a matriz
-            System.out.println("Digite o número para preencher o array: " );
+           
             int[][] matriz = new int[linhas][colunas];
             // Preenche a matriz com os valores digitados pelo usuário
             for (int i = 0; i < linhas; i++) {
+                 System.out.println("Digite o número para preencher o array: " );
                 for (int j = 0; j < colunas; j++) {
                     matriz[i][j] = scanner.nextInt();
                 }
             }
             // Imprime a matriz
-            System.out.println("Array do misa." );
+            //System.out.println("Array do misa." );
             
             for (int i = 0; i < linhas; i++) {
                 for (int j = 0; j < colunas; j++) {
