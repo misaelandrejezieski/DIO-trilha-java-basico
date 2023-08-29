@@ -20,8 +20,8 @@ public class Main {
             }
         }
         // Imprime a matriz
-        for (int i = 0; i < linhas; i++) {
-            for (int j = 0; j < colunas; j++) {
+        for (int i = 1; i <= linhas; i++) {
+            for (int j = 1; j <= colunas; j++) {
                 System.out.print(matriz[i][j] + " ");
             }
             System.out.println();
