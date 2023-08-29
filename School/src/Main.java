@@ -24,11 +24,8 @@ public class Main {
             for (int i = 0; i < linhas; i++) {
                 for (int j = 0; j < colunas; j++) {
                     System.out.print(matriz[i][j] + " ");
-                    System.out.println( );
                 }
-            }
-            System.out.println("\nAqui está seu array de " + linhas +" linhas e " + colunas + " colunas." );
+                System.out.println();
         }
     }
-    
 }
