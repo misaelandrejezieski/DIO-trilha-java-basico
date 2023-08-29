@@ -13,15 +13,14 @@ public class Main {
            
             int[][] matriz = new int[linhas][colunas];
         // Preenche a matriz com os valores digitados pelo usuário
-        for (int i = 1; i <= linhas; i++) {
-            System.out.println("Digite o número de linhas: " + i);
-            for (int j = 1; j <= colunas; j++) {
+        for (int i = 0; i < linhas; i++) {
+            for (int j = 0; j < colunas; j++) {
                 matriz[i][j] = scanner.nextInt();
             }
         }
         // Imprime a matriz
-        for (int i = 1; i <= linhas; i++) {
-            for (int j = 1; j <= colunas; j++) {
+        for (int i = 0; i < linhas; i++) {
+            for (int j = 0; j < colunas; j++) {
                 System.out.print(matriz[i][j] + " ");
             }
             System.out.println();
