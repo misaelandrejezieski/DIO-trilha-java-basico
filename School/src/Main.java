@@ -9,6 +9,7 @@ public class Main {
             System.out.println("Digite o número de colunas: " );
             int colunas = scanner.nextInt();
             // Cria a matriz
+            System.out.println("Digite o número para preencher o array: " );
             int[][] matriz = new int[linhas][colunas];
             // Preenche a matriz com os valores digitados pelo usuário
             for (int i = 0; i < linhas; i++) {
@@ -23,8 +24,8 @@ public class Main {
                 for (int j = 0; j < colunas; j++) {
                     System.out.print(matriz[i][j] + " ");
                 }
-                System.out.println("/nAqui está seu array de " + linhas +" linhas e " + colunas + " colunas." );
             }
+            System.out.println("\nAqui está seu array de " + linhas +" linhas e " + colunas + " colunas." );
         }
     }
     
