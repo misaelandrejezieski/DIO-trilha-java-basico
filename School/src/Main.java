@@ -15,6 +15,7 @@ public class Main {
         // Preenche a matriz com os valores digitados pelo usuário
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
+                System.out.println("Digite o número: " );
                 matriz[i][j] = scanner.nextInt();
             }
         }
