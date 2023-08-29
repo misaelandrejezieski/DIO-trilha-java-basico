@@ -4,7 +4,9 @@ public class Main {
         try 
         (Scanner scanner = new Scanner(System.in)) {
             // Pega o número de linhas e colunas da matriz
+            System.out.println("Digite o número de linhas: " );
             int linhas = scanner.nextInt();
+            System.out.println("Digite o número de colunas: " );
             int colunas = scanner.nextInt();
             // Cria a matriz
             int[][] matriz = new int[linhas][colunas];
@@ -21,7 +23,7 @@ public class Main {
                 for (int j = 0; j < colunas; j++) {
                     System.out.print(matriz[i][j] + " ");
                 }
-                System.out.println("Aqui está seu array de " + linhas +" linhas e " + colunas + " colunas." );
+                System.out.println("/nAqui está seu array de " + linhas +" linhas e " + colunas + " colunas." );
             }
         }
     }
