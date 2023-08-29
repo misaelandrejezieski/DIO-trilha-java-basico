@@ -19,6 +19,7 @@ public class Main {
             }
         }
         // Imprime a matriz
+        System.out.println("Imprimindo o array com " + linhas + " linhas e " + colunas + " colunas." );
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
                 System.out.print(matriz[i][j] + " ");
