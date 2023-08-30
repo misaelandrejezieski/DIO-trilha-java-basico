@@ -8,7 +8,7 @@ public class Main {
             int linhas = scanner.nextInt();
             System.out.println("Digite o número de colunas: " );
             int colunas = scanner.nextInt();
-            System.out.println("--Digite o número para preencher o array: " );
+            System.out.println("Digite o número para preencher o array: " );
             // Cria a matriz
            
             int[][] matriz = new int[linhas][colunas];
