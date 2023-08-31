@@ -18,15 +18,14 @@ public class ContaTerminal {
     String agencia = scan.nextLine();
 
     System.out.println("Por favor, digite seu nome:");
-    scan.nextLine();
     String nome = scan.nextLine();
 
     System.out.println("Digite seu saldo:");
     double saldo = scan.nextDouble();
-    
+
     System.out.println("\n---------------------------------------");
     System.out.println("\nOlá " + nome + ", obrigado por criar uma conta em nosso banco.\n" +
-     "\nConta: " + numConta + "Agencia: " + agencia +  " \nSaldo: " + saldo + "\nTENHA UM BOM DIA.");
+     "\nConta: " + numConta + " - Agencia: " + agencia +  " \nSaldo: " + saldo + "\nTENHA UM BOM DIA.");
     System.out.println("\n---------------------------------------");
 
     scan.close();
