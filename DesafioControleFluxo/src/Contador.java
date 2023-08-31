@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) throws Exception {
         
-        System.out.println(" Contador Desafio Controle de Fluxo ");
+        System.out.println(" Desafio Controle de Fluxo - Contador ");
         
     
     try (Scanner terminal = new Scanner(System.in)) {
