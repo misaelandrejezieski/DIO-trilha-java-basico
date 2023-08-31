@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) throws Exception {
-        System.out.println("----- ----- ----- ----- ----- ----- ----- -----");
-        System.out.println("¨¨¨¨ Contador Desafio trilha java básico ¨¨¨¨");
-        System.out.println("----- ----- ----- ----- ----- ----- ----- -----");
+        
+        System.out.println(" Contador Desafio Controle de Fluxo ");
         
     
     try (Scanner terminal = new Scanner(System.in)) {
@@ -31,5 +30,6 @@ public class Contador {
         for (int i = 1; i <= contagem; i++) {
             System.out.println("Imprimindo o número: " + i);
         }
+        System.out.println("O total de interações é: " + contagem);
     }
-}
+}    
