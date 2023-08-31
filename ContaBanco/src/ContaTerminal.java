@@ -1,3 +1,4 @@
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -14,6 +15,7 @@ public class ContaTerminal {
     int numConta = scan.nextInt();
 
     System.out.println("Por favor, digite o numero da agência:");
+    scan.nextLine();
     String agencia = scan.nextLine();
 
     System.out.println("Por favor, digite seu nome:");
